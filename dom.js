@@ -91,21 +91,21 @@
 
 //console.dir(document);
 
- //console.log(document.domain);
- //console.log(document.URL);
- //console.log(document.title);
- //document.title = 123;
- //console.log(document.doctype);
- //console.log(document.head);
- //c//onsole.log(document.all);
- //console.log(document.all[10]);
- //document.all[1].textContent = 'hello';
- //console.log(document.forms);
+//console.log(document.domain);
+//console.log(document.URL);
+//console.log(document.title);
+//document.title = 123;
+//console.log(document.doctype);
+//console.log(document.head);
+//c//onsole.log(document.all);
+//console.log(document.all[10]);
+//document.all[1].textContent = 'hello';
+//console.log(document.forms);
 
- //console.log(document.getElementById('header-title'));
+//console.log(document.getElementById('header-title'));
 
- //var take = document.getElementById('header-title');
- //console.log(take);
+//var take = document.getElementById('header-title');
+//console.log(take);
 //  take.textContent = 'hello';
 //  take.innerText = 'goodbye';
 //take.innerHTML = '<h3> Hello </h3>';
@@ -122,24 +122,31 @@
 //     items[i].style.backgroundColor = '#f4f4f4';
 // }
 
-var take = document.querySelector('#main-header');
-take.style.boderBottom = 'solid 4px #ccc'; 
-var take2 = document.querySelector('input');
+// var take = document.querySelector('#main-header');
+// take.style.boderBottom = 'solid 4px #ccc';
+// var take2 = document.querySelector('input');
 
-take2.value = 'Hello world';
+// take2.value = 'Hello world';
 
-var submit = document.querySelector('input[type="submit"]');
-submit.value = 'send';
-var item = document.querySelector('.list-group-item');
-item.style.color = 'red';
-var lastItem = document.querySelector('.list-group-item:last-child');
-lastItem.style.color = 'blue';
+// var submit = document.querySelector('input[type="submit"]');
+// submit.value = 'send';
+// var item = document.querySelector('.list-group-item');
+// item.style.color = 'red';
+// var lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'blue';
 
-var cd2 = document.querySelector('.list-group-item:nth-child(2)');
-cd2.style.color = 'red';
+// var cd2 = document.querySelector('.list-group-item:nth-child(2)');
+// cd2.style.color = 'red';
 
-var title = document.querySelectorAll('title');
+// var title = document.querySelectorAll('title');
 
-    console.log(title);
+// console.log(title);
 
-title[0].textContent = 'hello'; 
+// title[0].textContent = 'hello';
+
+
+// var odd = document.querySelectorAll('li:nth-child(odd)');
+
+// for (var i = 0; i < odd.length; i++) {
+//   odd[i].style.background = '#f4f4f4';
+// }
