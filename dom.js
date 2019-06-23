@@ -150,3 +150,26 @@
 // for (var i = 0; i < odd.length; i++) {
 //   odd[i].style.background = '#f4f4f4';
 // }
+
+// TRAVELSING DOM //
+
+var take = document.querySelector('#items');
+
+//parentnode 
+
+// console.log(take.parentNode);
+// take.parentNode.style.background = '#f4f4f4';
+// console.log(take.parentNode.parentNode);
+//parentElement
+// console.log(take.parentElement);
+// take.parentElement.style.background = '#f4f4f4';
+// console.log(take.parentElement.parentElement);
+
+// childNodes
+
+// console.log(take.childNodes);
+
+// chilren 
+
+console.log(take.children);
+take.children[1].style.backgroundColor = 'black';
