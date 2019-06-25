@@ -171,6 +171,16 @@ var take = document.querySelector('#items');
 
 // chilren 
 
-console.log(take.children);
-take.children[1].style.backgroundColor = 'black';
+// console.log(take.children);
+// take.children[1].style.backgroundColor = 'black';
+
+//traversing the dom 
+
+var take = document.querySelector('#items');
+//parentnode 
+console.log(take.parentNode);
+take.parentNode.style.backgroundColor = 'black';
+
+console.log(take.parentNode.parentNode);
+
 
