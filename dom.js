@@ -178,9 +178,23 @@ var take = document.querySelector('#items');
 
 var take = document.querySelector('#items');
 //parentnode 
-console.log(take.parentNode);
-take.parentNode.style.backgroundColor = 'black';
+// console.log(take.parentNode);
+// take.parentNode.style.backgroundColor = 'black';
 
-console.log(take.parentNode.parentNode);
+// console.log(take.parentNode.parentNode);
+//parentElement
+// console.log(take.parentElement);
+// take.parentElement.style.backgroundColor = 'black';
+
+// console.log(take.parentElement.parentElement);
+
+
+// childNode
+// console.log(take.childNodes);
+
+console.log(take.children);
+
+console.log(take.children[1]);
+
 
 
