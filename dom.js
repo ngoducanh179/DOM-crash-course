@@ -153,7 +153,7 @@
 
 // TRAVELSING DOM //
 
-var take = document.querySelector('#items');
+// var take = document.querySelector('#items');
 
 //parentnode 
 
@@ -174,7 +174,7 @@ var take = document.querySelector('#items');
 // console.log(take.children);
 // take.children[1].style.backgroundColor = 'black';
 
-//traversing the dom 
+//traversing the dom //
 
 var take = document.querySelector('#items');
 //parentnode 
@@ -192,25 +192,71 @@ var take = document.querySelector('#items');
 // childNode
 // console.log(take.childNodes);
 
-console.log(take.children);
+// console.log(take.children);
 
-console.log(take.children[1]);
-take.children[1].style.backgroundColor = 'yellow';
+// console.log(take.children[1]);
+// take.children[1].style.backgroundColor = 'yellow';
 
-//firstChild    
+// //firstChild    
 
-console.log(take.firstChild);
+// console.log(take.firstChild);
 //firstElementChild 
 
-console.log(take.firstElementChild);
-take.firstElementChild.innerHTML = 'hello';
+// console.log(take.firstElementChild);
+// take.firstElementChild.innerHTML = 'hello';
 
-//LastElementChild 
+// //LastElementChild 
 
-console.log(take.lastElementChild);
-take.lastElementChild.innerHTML = 'hello';
+// console.log(take.lastElementChild);
+// // take.lastElementChild.innerHTML = 'hello';
+
+// console.log(take.nextSibling);
+
+// console.log(take.nextElementSibling);
+
+// privious sibling
+
+console.log(take.previousSibling);
+
+//privios Element sibing
+
+console.log(take.previousElementSibling);
+
+take.previousElementSibling.style.color = 'green';
+
+//createElement 
 
 
+
+// create a div
+
+var div2 = document.createElement('div');
+
+// Add  className
+div2.className = 'hello';
+// Add Id
+div2.id = 'take2';
+
+//Add attr 
+div2.setAttribute('title','hello div');
+
+div2.setAttribute('id','thanks');
+
+//create text node
+
+var newdivtext = document.createTextNode('thank');
+
+//add text to div
+div2.appendChild(newdivtext);
+
+
+var container = document.querySelector('header .container');
+var h1 = document.querySelector('header .h1');
+
+
+console.log(div2);
+
+container.insertBefore(div2,h1 );
 
 
 
