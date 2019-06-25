@@ -195,6 +195,23 @@ var take = document.querySelector('#items');
 console.log(take.children);
 
 console.log(take.children[1]);
+take.children[1].style.backgroundColor = 'yellow';
+
+//firstChild    
+
+console.log(take.firstChild);
+//firstElementChild 
+
+console.log(take.firstElementChild);
+take.firstElementChild.innerHTML = 'hello';
+
+//LastElementChild 
+
+console.log(take.lastElementChild);
+take.lastElementChild.innerHTML = 'hello';
+
+
+
 
 
 
