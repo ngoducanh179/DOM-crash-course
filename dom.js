@@ -169,94 +169,195 @@
 
 // console.log(take.childNodes);
 
-// chilren 
+// // chilren 
 
-// console.log(take.children);
-// take.children[1].style.backgroundColor = 'black';
+// // console.log(take.children);
+// // take.children[1].style.backgroundColor = 'black';
 
-//traversing the dom //
+// //traversing the dom //
 
-var take = document.querySelector('#items');
-//parentnode 
-// console.log(take.parentNode);
-// take.parentNode.style.backgroundColor = 'black';
+// var take = document.querySelector('#items');
+// //parentnode 
+// // console.log(take.parentNode);
+// // take.parentNode.style.backgroundColor = 'black';
 
-// console.log(take.parentNode.parentNode);
-//parentElement
-// console.log(take.parentElement);
-// take.parentElement.style.backgroundColor = 'black';
+// // console.log(take.parentNode.parentNode);
+// //parentElement
+// // console.log(take.parentElement);
+// // take.parentElement.style.backgroundColor = 'black';
 
-// console.log(take.parentElement.parentElement);
+// // console.log(take.parentElement.parentElement);
 
+chilren 
 
-// childNode
-// console.log(take.childNodes);
+// // console.log(take.children);
+// // take.children[1].style.backgroundColor = 'black';
 
-// console.log(take.children);
+// //traversing the dom //
 
-// console.log(take.children[1]);
-// take.children[1].style.backgroundColor = 'yellow';
+// var take = document.querySelector('#items');
+// //parentnode 
+// // console.log(take.parentNode);
+// // take.parentNode.style.backgroundColor = 'black';
 
-// //firstChild    
+// // console.log(take.parentNode.parentNode);
+// //parentElement
+// // console.log(take.parentElement);
+// // take.parentElement.style.backgroundColor = 'black';
 
-// console.log(take.firstChild);
-//firstElementChild 
-
-// console.log(take.firstElementChild);
-// take.firstElementChild.innerHTML = 'hello';
-
-// //LastElementChild 
-
-// console.log(take.lastElementChild);
-// // take.lastElementChild.innerHTML = 'hello';
-
-// console.log(take.nextSibling);
-
-// console.log(take.nextElementSibling);
-
-// privious sibling
-
-console.log(take.previousSibling);
-
-//privios Element sibing
-
-console.log(take.previousElementSibling);
-
-take.previousElementSibling.style.color = 'green';
-
-//createElement 
+// // console.log(take.parentElement.parentElement);
 
 
+// // childNode
+// // console.log(take.childNodes);
 
-// create a div
+// // console.log(take.children);
 
-var div2 = document.createElement('div');
+// // console.log(take.children[1]);
+// // take.children[1].style.backgroundColor = 'yellow';
 
-// Add  className
-div2.className = 'hello';
-// Add Id
-div2.id = 'take2';
+// // //firstChild    
 
-//Add attr 
-div2.setAttribute('title','hello div');
+// // console.log(take.firstChild);
+// //firstElementChild 
 
-div2.setAttribute('id','thanks');
+// // console.log(take.firstElementChild);
+// // take.firstElementChild.innerHTML = 'hello';
 
-//create text node
+// // //LastElementChild 
 
-var newdivtext = document.createTextNode('thank');
+// // console.log(take.lastElementChild);
+// // // take.lastElementChild.innerHTML = 'hello';
 
-//add text to div
-div2.appendChild(newdivtext);
+// // console.log(take.nextSibling);
+
+// // console.log(take.nextElementSibling);
+
+// // privious sibling
+
+// console.log(take.previousSibling);
+
+// //privios Element sibing
+
+// console.log(take.previousElementSibling);
+
+// take.previousElementSibling.style.color = 'green';
+
+// //createElement 
 
 
-var container = document.querySelector('header .container');
-var h1 = document.querySelector('header .h1');
+
+// // create a div
+
+// var div2 = document.createElement('div');
+
+// // Add  className
+// div2.className = 'hello';
+// // Add Id
+// div2.id = 'take2';
+
+// //Add attr 
+// div2.setAttribute('title','hello div');
+
+// div2.setAttribute('id','thanks');
+
+// //create text node
+
+// var newdivtext = document.createTextNode('thank');
+
+// //add text to div
+// div2.appendChild(newdivtext);
 
 
-console.log(div2);
+// var container = document.querySelector('header .container');
+// var h1 = document.querySelector('header .h1');
 
-container.insertBefore(div2,h1 );
+
+// console.log(div2);
+
+// container.insertBefore(div2,h1 );   
+
+// // childNode
+// // console.log(take.childNodes);
+
+// // console.log(take.children);
+
+// // console.log(take.children[1]);
+// // take.children[1].style.backgroundColor = 'yellow';
+
+// // //firstChild    
+
+// // console.log(take.firstChild);
+// //firstElementChild 
+
+// // console.log(take.firstElementChild);
+// // take.firstElementChild.innerHTML = 'hello';
+
+// // //LastElementChild 
+
+// // console.log(take.lastElementChild);
+// // // take.lastElementChild.innerHTML = 'hello';
+
+// // console.log(take.nextSibling);
+
+// // console.log(take.nextElementSibling);
+
+// // privious sibling
+
+// console.log(take.previousSibling);
+
+// //privios Element sibing
+
+// console.log(take.previousElementSibling);
+
+// take.previousElementSibling.style.color = 'green';
+
+// //createElement 
+
+
+
+// // create a div
+
+// var div2 = document.createElement('div');
+
+// // Add  className
+// div2.className = 'hello';
+// // Add Id
+// div2.id = 'take2';
+
+// //Add attr 
+// div2.setAttribute('title','hello div');
+
+// div2.setAttribute('id','thanks');
+
+// //create text node
+
+// var newdivtext = document.createTextNode('thank');
+
+// //add text to div
+// div2.appendChild(newdivtext);
+
+
+// var container = document.querySelector('header .container');
+// var h1 = document.querySelector('header .h1');
+
+
+// console.log(div2);
+
+// container.insertBefore(div2,h1 );   
+
+
+var button = document.getElementById('button').addEventListener('click',buttonClick);
+
+
+function buttonClick(e){
+    // console.log('button click');
+    // document.getElementById('header-title').textContent = 'changed';
+    // document.querySelector('#main').style.backgroundColor = '#f4f4f4';
+    console.log(e.target);
+    
+
+}
 
 
 
