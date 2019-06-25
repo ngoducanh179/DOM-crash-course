@@ -173,3 +173,4 @@ var take = document.querySelector('#items');
 
 console.log(take.children);
 take.children[1].style.backgroundColor = 'black';
+
