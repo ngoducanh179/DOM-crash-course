@@ -391,15 +391,34 @@ var output = document.getElementById('output');
 // box.addEventListener('mousemove', runEvent);
 
 var iteminput = document.querySelector('input[type = "text"]');
-var form = document.querySelector('form')
+var form = document.querySelector('form');
+var select = document.querySelector('select');
 
-iteminput.addEventListener('keydown', runEvent)
+// iteminput.addEventListener('keydown', runEvent);
+// iteminput.addEventListener('keyup', runEvent);
+// iteminput.addEventListener('keypress', runEvent);
 
+// iteminput.addEventListener('focus', runEvent);
+// iteminput.addEventListener('blur', runEvent);
+
+// iteminput.addEventListener('cut', runEvent);
+// iteminput.addEventListener('paste', runEvent);
+// iteminput.addEventListener('input', runEvent);
+
+// select.addEventListener('change', runEvent);
+
+
+form.addEventListener('submit', runEvent);
 
 function runEvent(e) {
+    e.preventDefault();
     console.log('EVENT TYPE: ' + e.type);
-
     console.log(e.target.value);
+
+    // console.log(e.target.value);
+
+    // document.body.style.display = 'none';
+
 
     // output.innerHTML = '<h3>MouseX: ' + e.offsetX + '</h3><h3>MouseY: ' + e.offsetY + '</h3>';
 
