@@ -72,4 +72,9 @@ function remove(e) {
 
 function filteritem(e) {
   var text = e.target.value.toLowerCase();
+
+  //get list
+  var items = itemlist.getElementsByTagName('li');
+  //convert to an array
+  Array.from(items).forEach(function ())
 }
